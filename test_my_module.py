@@ -10,4 +10,4 @@ def test_divide():
     with pytest.raises(ValueError):
         divide(5, 0)
 
-        
+
