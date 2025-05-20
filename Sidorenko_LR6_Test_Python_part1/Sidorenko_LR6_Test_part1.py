@@ -11,4 +11,4 @@ def test_good_grade():
 def test_user_inp():
     assert t_ver_user_inp(-2) == False
     assert t_ver_user_inp("str") == False
-    assert t_ver_user_inp(2) == 2
+    assert t_ver_user_inp(2) == 3

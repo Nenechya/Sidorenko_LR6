@@ -9,3 +9,5 @@ def test_divide():
     assert divide(6, 3) == 2.0
     with pytest.raises(ValueError):
         divide(5, 0)
+
+        

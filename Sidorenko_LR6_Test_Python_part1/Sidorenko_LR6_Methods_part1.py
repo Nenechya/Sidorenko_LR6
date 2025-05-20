@@ -12,9 +12,9 @@ def user_inp():
         except ValueError:
             print("Not a number")
 
-def t_ver_user_inp(d):
+def t_ver_user_inp(y):
     try:
-        x = float(d)
+        x = float(y)
         if x > 0:
             return x
         else:
