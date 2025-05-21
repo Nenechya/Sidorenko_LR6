@@ -1,4 +1,5 @@
 from Sidorenko_LR6_Methods_part2 import one_or_more, cut_info, a_to_z
+import pytest
 
 def test_cut_info():
     assert cut_info('a-1') == False
